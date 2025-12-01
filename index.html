@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Astrolove – Astrology-Based Dating</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="vibes.css" />
+</head>
+
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#top" class="brand">
+        <div class="logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" class="logo-svg">
+            <defs>
+              <linearGradient id="astroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#ffb3df" />
+                <stop offset="100%" stop-color="#ff5ca8" />
+              </linearGradient>
+            </defs>
+            <circle cx="18" cy="20" r="13" fill="url(#astroGrad)" />
+            <circle cx="22" cy="18" r="11" fill="#160033" />
+            <path d="M18 15c-1.4 0-2.5 1.1-2.5 2.7 0 2.1 2.1 3.6 4.5 5.4 2.4-1.8 4.5-3.3 4.5-5.4 0-1.6-1.1-2.7-2.5-2.7-.9 0-1.7.5-2 1.2-.3-.7-1.1-1.2-2-1.2z" fill="#ffd1f0" />
+          </svg>
+        </div>
+        <span class="brand-text">Astrolove</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#why">Why Astrolove</a>
+        <a href="#how">How it works</a>
+        <a href="#signup">Join</a>
+      </nav>
+
+      <a href="#signup" class="btn btn-outline nav-cta">Get Started</a>
+    </div>
+  </header>
+
+  <main id="top" class="hero">
+    <div class="hero-inner">
+      <section class="hero-left">
+        <div class="hero-logo-block">
+          <h1 class="hero-logo-title">Astrolove</h1>
+          <p class="hero-logo-sub">Astrology-Based Dating</p>
+        </div>
+
+        <div class="hero-phone-wrapper">
+          <div class="phone">
+            <div class="phone-inner">
+              <div class="phone-notch"></div>
+
+              <div class="match-card">
+                <div class="match-circle">
+                  <span class="match-percent">92%</span>
+                </div>
+                <p class="match-label">Cosmic Match</p>
+              </div>
+
+              <div class="profile-card">
+                <div class="photo-icon">
+                  <span class="photo-hair"></span>
+                  <span class="photo-face"></span>
+                </div>
+                <div class="profile-text">
+                  <p class="profile-name">Emily</p>
+                  <p class="profile-sign">Cancer</p>
+                </div>
+                <span class="profile-arrow">›</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hero-right">
+        <h2 class="hero-heading">
+          Connect with your<br />astrological soulmate
+        </h2>
+        <p class="hero-subtext">
+          Astrolove blends swipe-style dating with birth charts and compatibility insights.
+        </p>
+
+        <div class="hero-cta-row">
+          <a href="#signup" class="btn btn-primary hero-btn">Join the waitlist</a>
+          <button class="btn btn-outline hero-secondary-btn" type="button" onclick="document.getElementById('how').scrollIntoView({behavior:'smooth'})">
+            See how it works
+          </button>
+        </div>
+
+        <div class="store-buttons">
+          <a href="#signup" class="store-badge store-badge--apple">
+            <span class="store-badge-top">Soon on</span>
+            <span class="store-badge-main">App Store</span>
+          </a>
+          <a href="#signup" class="store-badge store-badge--google">
+            <span class="store-badge-top">Soon on</span>
+            <span class="store-badge-main">Google Play</span>
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <div class="hero-pill">Beta · 2026</div>
+          <div class="hero-pill">Designed at UCF</div>
+          <div class="hero-pill">iOS & Android</div>
+        </div>
+      </section>
+    </div>
+
+    <div class="star star-1"></div>
+    <div class="star star-2"></div>
+    <div class="star star-3"></div>
+    <div class="star star-4"></div>
+  </main>
+
+  <section id="about" class="section section-light">
+    <div class="section-inner two-col">
+      <div>
+        <h3>About Astrolove</h3>
+        <p>
+          Astrolove is an astrology-inspired dating concept built to create more intentional, aligned matches.
+        </p>
+        <p>
+          Instead of endless swiping, matches focus on communication style, values, and compatibility.
+        </p>
+      </div>
+
+      <div class="stat-grid">
+        <article class="stat-card">
+          <span class="stat-number">92%</span>
+          <span class="stat-label">Avg match score</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-number">12</span>
+          <span class="stat-label">Signs, one universe</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-number">24/7</span>
+          <span class="stat-label">Cosmic insights</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="section">
+    <div class="section-inner">
+      <h3>Features</h3>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <h4>Aligned matches</h4>
+          <p>Sun, moon, rising, and relationship goals flow into one score.</p>
+        </article>
+
+        <article class="feature-card">
+          <h4>Daily compatibility</h4>
+          <p>Planetary shifts nudge match energy without making it complicated.</p>
+        </article>
+
+        <article class="feature-card">
+          <h4>Safety-focused</h4>
+          <p>Clear boundaries, honest prompts, and quick-report tools.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="why" class="section section-why">
+    <div class="section-inner">
+      <h3>Why Astrolove</h3>
+
+      <div class="tabs">
+        <div class="tab-buttons">
+          <button class="tab-button tab-button--active" data-tab-target="tab-intentional">Intentional</button>
+          <button class="tab-button" data-tab-target="tab-astro">Astro + Data</button>
+          <button class="tab-button" data-tab-target="tab-safety">Safety</button>
+        </div>
+
+        <div class="tab-panels">
+          <article id="tab-intentional" class="tab-panel tab-panel--active">
+            <h4>Designed to reduce burnout</h4>
+            <ul>
+              <li>Quality over quantity.</li>
+              <li>Clear intent tags on every profile.</li>
+              <li>Reset or slow mode when you want a break.</li>
+            </ul>
+          </article>
+
+          <article id="tab-astro" class="tab-panel">
+            <h4>Cosmic context, not destiny</h4>
+            <ul>
+              <li>Sun, moon, rising by default.</li>
+              <li>Optional deeper chart insights.</li>
+              <li>Supportive language, no doom readings.</li>
+            </ul>
+          </article>
+
+          <article id="tab-safety" class="tab-panel">
+            <h4>Respect-centered design</h4>
+            <ul>
+              <li>Boundary prompts on profiles.</li>
+              <li>Fast report and block flows.</li>
+              <li>Reminders to check in with your comfort level.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how" class="section section-light">
+    <div class="section-inner">
+      <h3>How it works</h3>
+      <div class="how-grid">
+        <article class="how-card">
+          <span class="how-step">1</span>
+          <h4>Create profile</h4>
+          <p>Birth details, photos, and what you are actually looking for.</p>
+        </article>
+        <article class="how-card">
+          <span class="how-step">2</span>
+          <h4>Intentional swiping</h4>
+          <p>See match scores and themes before you say yes or no.</p>
+        </article>
+        <article class="how-card">
+          <span class="how-step">3</span>
+          <h4>Aligned chats</h4>
+          <p>Conversation prompts and timing nudges when the vibes are right.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="signup" class="section section-cta">
+    <div class="section-inner signup-inner">
+      <div class="signup-copy">
+        <h3>Join the Waitlist</h3>
+        <p>Get beta access, updates, and first-release notifications.</p>
+      </div>
+
+      <form id="signup-form" class="signup-form" novalidate>
+        <label>Name
+          <input type="text" name="name" required />
+        </label>
+        <label>Email
+          <input type="email" name="email" required />
+        </label>
+        <label>Zodiac
+          <select name="sign" required>
+            <option value="">Select</option>
+            <option>Aries</option><option>Taurus</option><option>Gemini</option>
+            <option>Cancer</option><option>Leo</option><option>Virgo</option>
+            <option>Libra</option><option>Scorpio</option><option>Sagittarius</option>
+            <option>Capricorn</option><option>Aquarius</option><option>Pisces</option>
+          </select>
+        </label>
+        <label>Intent
+          <select name="intent" required>
+            <option value="">Choose</option>
+            <option>Serious relationship</option>
+            <option>Casual dating</option>
+            <option>Friendship</option>
+            <option>Just exploring</option>
+          </select>
+        </label>
+
+        <button type="submit" class="btn btn-primary full-width">Join</button>
+        <p id="form-message" class="form-message"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>© <span id="year"></span> Astrolove</p>
+      <div class="footer-links">
+        <a href="#top">Top</a>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
